@@ -2,7 +2,7 @@
 1,Japan,108.14,155534
 2,South Korea,107,104316
 3,China,106.59,190255
-4,Iran (Islamic Republic of),106.52,1657
+4,Iran,106.52,1657
 5,Singapore,104.75,5975
 6,Mongolia,102.5,1393
 7,Australia,101.96,6574
@@ -14,8 +14,8 @@
 13,Austria,100.33,6137
 14,Bulgaria,100.21,375
 15,Belgium,100.03,7759
-16,Russian Federation,99.95,68494
-17,United States,99.9,26465
+16,Russia,99.95,68494
+17,United States of America,99.9,26465
 18,Finland,99.83,17589
 19,Nepal,99.74,436
 20,Serbia,99.74,6055
@@ -88,13 +88,13 @@
 87,Kuwait,94.15,1471
 88,Indonesia,94.04,170297
 89,Romania,93.86,21004
-90,Bolivia (Plurinational State of),93.81,1616
+90,Bolivia,93.81,1616
 91,Chile,93.6,9878
 92,Argentina,93.47,16070
 93,Tajikistan,93.17,441
 94,Kyrgyzstan,92.98,1991
 95,South Africa,92.63,5419
-96,Venezuela (Bolivarian Republic of),92.28,2430
+96,Venezuela,92.28,2430
 97,Kenya,92.25,687
 98,Brazil,92,47360
 99,Nigeria,91.92,3772
@@ -118,7 +118,7 @@
 117,Panama,87.88,1177
 118,Dominican Republic,87.19,2578
 119,Uganda,87.16,375
-120,Congo (Democratic Republic of the),87.07,653
+120,Dem. Rep. Congo,87.07,653
 121,El Salvador,86.96,1415
 122,Congo,86.91,356
 123,Honduras,86.87,2010
