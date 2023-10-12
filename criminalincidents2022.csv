@@ -1,87 +1,87 @@
 ﻿LGA,Year,Incidents Recorded,"Rate per 100,000 population"
-Banyule,2022,"5,387","4,264.2"
-Brimbank,2022,"12,156","6,248.0"
-Darebin,2022,"9,321","6,246.0"
-Hobsons Bay,2022,"4,664","5,088.8"
-Hume,2022,"12,753","5,066.2"
- Maribyrnong,2022,"6,828","7,859.5"
- Melbourne,2022,"24,785","15,980.9"
- Melton,2022,"8,598","4,500.0"
- Merri-bek,2022,"9,270","5,375.0"
- Moonee Valley,2022,"5,818","4,761.1"
- Nillumbik,2022,"1,170","1,859.1"
- Whittlesea,2022,"8,929","3,806.4"
- Wyndham,2022,"13,316","4,328.9"
- Yarra,2022,"9,089","9,862.7"
-Total,2022,"132,084","5,900.6"
- Alpine,2022,349,"2,635.3"
- Bass Coast,2022,"2,060","4,912.7"
- Baw Baw,2022,"2,867","4,824.2"
- Benalla,2022,945,"6,528.6"
- Boroondara,2022,"5,589","3,318.5"
-East Gippsland,2022,"3,386","6,893.4"
- Greater Shepparton,2022,"5,626","8,175.4"
- Indigo,2022,566,"3,263.2"
- Knox,2022,"6,431","4,043.1"
- Latrobe,2022,"7,806","10,079.5"
- Manningham,2022,"2,860","2,292.9"
- Mansfield,2022,276,"2,678.5"
- Maroondah,2022,"5,249","4,550.4"
- Mitchell,2022,"2,490","4,831.5"
- Moira,2022,"1,474","4,831.9"
- Monash,2022,"8,726","4,548.2"
- Murrindindi,2022,535,"3,502.9"
- South Gippsland,2022,"1,330","4,338.1"
- Strathbogie,2022,381,"3,304.3"
- Towong,2022,130,"2,093.8"
- Wangaratta,2022,"1,698","5,668.3"
- Wellington,2022,"3,062","6,684.8"
- Whitehorse,2022,"5,826","3,413.3"
- Wodonga,2022,"2,701","6,157.7"
- Yarra Ranges,2022,"4,751","3,030.1"
-Total,2022,"77,114","4,524.5"
- Bayside,2022,"3,767","3,729.6"
- Cardinia,2022,"4,631","3,772.3"
- Casey,2022,"14,852","3,939.8"
- Frankston,2022,"9,180","6,547.3"
- Glen Eira,2022,"5,401","3,614.7"
- Greater Dandenong,2022,"12,649","7,967.3"
- Kingston,2022,"7,750","4,900.2"
- Mornington Peninsula,2022,"6,643","3,887.0"
- Port Phillip,2022,"9,533","9,236.1"
- Stonnington,2022,"8,450","8,022.3"
-Total,2022,"82,856","5,221.8"
-Ararat,2022,900,"7,592.9"
-Ballarat,2022,"8,036","6,936.3"
-Buloke,2022,206,"3,368.2"
-Campaspe,2022,"2,581","6,667.2"
-Central Goldfields,2022,802,"5,976.4"
- Colac-Otway,2022,"1,102","4,939.6"
- Corangamite,2022,512,"3,209.3"
- Gannawarra,2022,502,"4,717.1"
- Glenelg,2022,"1,100","5,483.3"
- Golden Plains,2022,448,"1,763.6"
- Greater Bendigo,2022,"7,537","6,129.6"
- Greater Geelong,2022,"14,419","5,208.4"
- Hepburn,2022,482,"2,897.8"
- Hindmarsh,2022,199,"3,528.2"
- Horsham,2022,"1,600","7,850.2"
- Loddon,2022,340,"4,406.9"
- Macedon Ranges,2022,"1,471","2,809.0"
- Mildura,2022,"5,251","9,209.1"
- Moorabool,2022,"1,443","3,718.7"
- Mount Alexander,2022,670,"3,296.4"
- Moyne,2022,458,"2,627.9"
- Northern Grampians,2022,760,"6,384.2"
- Pyrenees,2022,262,"3,415.5"
- Queenscliffe,2022,90,"2,702.3"
- Southern Grampians,2022,776,"4,719.4"
- Surf Coast,2022,838,"2,137.0"
- Swan Hill,2022,"1,489","7,005.8"
- Warrnambool,2022,"2,018","5,657.0"
- West Wimmera,2022,98,"2,489.3"
- Yarriambiack,2022,304,"4,741.9"
-Total,2022,"56,694","5,337.0"
+Banyule,2022,"5,387",4264.2
+Brimbank,2022,"12,156",6248.0
+Darebin,2022,"9,321",6246.0
+Hobsons Bay,2022,"4,664",5088.8
+Hume,2022,"12,753",5066.2
+ Maribyrnong,2022,"6,828",7859.5
+ Melbourne,2022,"24,785",15980.9
+ Melton,2022,"8,598",4500.0
+ Merri-bek,2022,"9,270",5375.0
+ Moonee Valley,2022,"5,818",4761.1
+ Nillumbik,2022,"1,170",1859.1
+ Whittlesea,2022,"8,929",3806.4
+ Wyndham,2022,"13,316",4328.9
+ Yarra,2022,"9,089",9862.7
+Total,2022,"132,084",5900.6
+ Alpine,2022,349,2635.3
+ Bass Coast,2022,"2,060",4912.7
+ Baw Baw,2022,"2,867",4824.2
+ Benalla,2022,945,6528.6
+ Boroondara,2022,"5,589",3318.5
+East Gippsland,2022,"3,386",6893.4
+ Greater Shepparton,2022,"5,626",8175.4
+ Indigo,2022,566,3263.2
+ Knox,2022,"6,431",4043.1
+ Latrobe,2022,"7,806",10079.5
+ Manningham,2022,"2,860",2292.9
+ Mansfield,2022,276,2678.5
+ Maroondah,2022,"5,249",4550.4
+ Mitchell,2022,"2,490",4831.5
+ Moira,2022,"1,474",4831.9
+ Monash,2022,"8,726",4548.2
+ Murrindindi,2022,535,3502.9
+ South Gippsland,2022,"1,330",4338.1
+ Strathbogie,2022,381,3304.3
+ Towong,2022,130,2093.8
+ Wangaratta,2022,"1,698",5668.3
+ Wellington,2022,"3,062",6684.8
+ Whitehorse,2022,"5,826",3413.3
+ Wodonga,2022,"2,701",6157.7
+ Yarra Ranges,2022,"4,751",3030.1
+Total,2022,"77,114",4524.5
+ Bayside,2022,"3,767",3729.6
+ Cardinia,2022,"4,631",3772.3
+ Casey,2022,"14,852",3939.8
+ Frankston,2022,"9,180",6547.3
+ Glen Eira,2022,"5,401",3614.7
+ Greater Dandenong,2022,"12,649",7967.3
+ Kingston,2022,"7,750",4900.2
+ Mornington Peninsula,2022,"6,643",3887.0
+ Port Phillip,2022,"9,533",9236.1
+ Stonnington,2022,"8,450",8022.3
+Total,2022,"82,856",5221.8
+Ararat,2022,900,7592.9
+Ballarat,2022,"8,036",6936.3
+Buloke,2022,206,3368.2
+Campaspe,2022,"2,581",6667.2
+Central Goldfields,2022,802,5976.4
+ Colac-Otway,2022,"1,102",4939.6
+ Corangamite,2022,512,3209.3
+ Gannawarra,2022,502,4717.1
+ Glenelg,2022,"1,100",5483.3
+ Golden Plains,2022,448,1763.6
+ Greater Bendigo,2022,"7,537",6129.6
+ Greater Geelong,2022,"14,419",5208.4
+ Hepburn,2022,482,2897.8
+ Hindmarsh,2022,199,3528.2
+ Horsham,2022,"1,600",7850.2
+ Loddon,2022,340,4406.9
+ Macedon Ranges,2022,"1,471",2809.0
+ Mildura,2022,"5,251",9209.1
+ Moorabool,2022,"1,443",3718.7
+ Mount Alexander,2022,670,3296.4
+ Moyne,2022,458,2627.9
+ Northern Grampians,2022,760,6384.2
+ Pyrenees,2022,262,3415.5
+ Queenscliffe,2022,90,2702.3
+ Southern Grampians,2022,776,4719.4
+ Surf Coast,2022,838,2137.0
+ Swan Hill,2022,"1,489",7005.8
+ Warrnambool,2022,"2,018",5657.0
+ West Wimmera,2022,98,2489.3
+ Yarriambiack,2022,304,4741.9
+Total,2022,"56,694",5337.0
  Justice Institutions and Immigration Facilities,2022,999,
 Total,2022,999,
  Unincorporated Vic,2022,89,
