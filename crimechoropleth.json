@@ -6,7 +6,7 @@
   "projection": {
     "type": "conicEqualArea",
     "parallels": [-36, -38],
-    "rotate": [-145, 0, 0]
+    "rotate": [-141, 0, 0]
   },
   "data": {
     "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/vic_lga.json",
