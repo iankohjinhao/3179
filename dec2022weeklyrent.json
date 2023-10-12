@@ -1,0 +1,66 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Median Rent Prices in Victoria December 2022",
+  "width": "container",
+  "height": 450,
+  "projection": {
+    "type": "conicEqualArea",
+    "parallels": [-36, -38],
+    "rotate": [-141, 0, 0]
+  },
+  "data": {
+    "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/vic_lga.json",
+    "format": {"type": "topojson", "feature": "vic_lga"}
+  },
+  "encoding": {
+    "tooltip": [
+      {
+        "field": "properties.ABB_NAME",
+        "type": "nominal",
+        "title": "Local Government Area"
+      },
+      {
+        "field": "Quarterly Median Rents Dec2022",
+        "type": "quantitative",
+        "title": "Weekly Rental (AUD)"
+      }
+    ]
+  },
+  "layer": [
+    {"mark": {"type": "geoshape", "fill": "gainsboro", "stroke": "white"}},
+    {
+      "transform": [
+        {
+          "lookup": "properties.ABB_NAME",
+          "from": {
+            "data": {
+              "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/criminalincidents2022.csv"
+            },
+            "key": "LGA",
+            "fields": ["Quarterly Median Rents Dec2022"]
+          }
+        }
+      ],
+      "mark": {"type": "geoshape"},
+      "encoding": {
+        "color": {
+          "field": "Quarterly Median Rents Dec2022",
+          "type": "quantitative",
+          "title": ["Median", "Weekly", "Rent (AUD)"],
+          "scale": {
+            "type": "threshold",
+            "domain": [200, 300, 400, 500],
+            "range": ["#a8ddb5", "#7bccc4", "#43a2ca", "#0868ac", "#084594"]
+          }
+        }
+      }
+    }
+  ],
+  "config": {
+    "view": {"stroke": null},
+    "axis": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
+    "legend": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
+    "header": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
+    "title": {"font": "Oxygen", "fontSize": 16, "fontWeight": 600}
+  }
+}
