@@ -1,6 +1,11 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "title": "Median Rent Prices in Victoria December 2022",
+  "title": {
+    "text": "Median Rent Prices",
+    "subtitle": "in Victoria 2022",
+    "subtitleFontSize": 12
+  },
+  "subtitle": "in Victoria December 2022",
   "width": "container",
   "height": 450,
   "projection": {
