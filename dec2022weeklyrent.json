@@ -34,7 +34,7 @@
           "lookup": "properties.ABB_NAME",
           "from": {
             "data": {
-              "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/criminalincidents2022.csv"
+              "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/medianrent2022.csv"
             },
             "key": "LGA",
             "fields": ["Quarterly Median Rents Dec2022"]
