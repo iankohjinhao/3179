@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "description": "Affordable percentages by LGA",
+  "data": {
+    "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/affordable2022.csv",
+    "format": {"type": "csv"}
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "LGA",
+      "type": "ordinal",
+      "sort": "-y",
+      "axis": {"labelAngle": -45, "title": "Local Government Area"}
+    },
+    "y": {
+      "field": "Percentages",
+      "type": "quantitative",
+      "axis": {"title": "Affordability Percentage"},
+      "scale": {"domain": [0, 100]}
+    },
+    "tooltip": [
+      {"field": "LGA", "type": "ordinal"},
+      {"field": "Affordable", "type": "quantitative"},
+      {"field": "Percentages", "type": "quantitative"}
+    ]
+  },
+  "config": {}
+}
