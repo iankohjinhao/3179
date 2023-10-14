@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": "container",
+  "width": 500,
   "height": 250,
   "title": {
     "text": "Median House Prices",
@@ -10,60 +10,24 @@
   "data": {
     "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/median-house-prices-by-type-and-sale-year.csv"
   },
+  "mark": {"type": "line", "point": {"filled": false, "fill": "white"}},
   "encoding": {
-    "x": {"field": "Year", "type": "temporal", "title": "Year"},
+    "x": {"field": "Year", "type": "ordinal", "title": "Year"},
     "y": {
       "field": "Median Price",
       "type": "quantitative",
-      "title": "Median Property"
+      "title": "Median Property Price"
     },
-    "color": {
-      "condition": {"selection": "hover", "type": "nominal", "legend": null},
-      "value": "grey"
-    },
-    "opacity": {"condition": {"selection": "hover", "value": 1}, "value": 0.2}
+    "color": {"field": "Type", "type": "nominal"},
+    "tooltip": [
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {
+        "field": "Median Price",
+        "type": "quantitative",
+        "title": "Median Price"
+      },
+      {"field": "Type", "type": "nominal", "title": "Property Type"}
+    ]
   },
-  "layer": [
-    {
-      "selection": {
-        "hover": {"type": "single", "on": "mouseover", "empty": "all"}
-      },
-      "mark": {
-        "type": "line",
-        "point": true,
-        "strokeWidth": 8,
-        "stroke": "transparent"
-      },
-      "encoding": {
-        "tooltip": [
-          {
-            "field": "Median Price",
-            "type": "quantitative",
-            "title": "Median Property Price"
-          }
-        ]
-      }
-    },
-    {"mark": "line"},
-    {
-      "encoding": {
-        "x": {"aggregate": "max", "field": "Year"},
-        "y": {"aggregate": {"argmax": "Year"}, "field": "Percent"}
-      },
-      "layer": [
-        {"mark": {"type": "circle"}},
-        {
-          "mark": {"type": "text", "align": "left", "font": "Oxygen", "dx": 4},
-          "encoding": {"text": {"field": "Gender", "type": "nominal"}}
-        }
-      ]
-    }
-  ],
-  "config": {
-    "view": {"stroke": null},
-    "axis": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
-    "legend": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
-    "header": {"labelFont": "Oxygen", "titleFont": "Oxygen"},
-    "title": {"font": "Oxygen", "fontSize": 16, "fontWeight": 600}
-  }
+  "config": {}
 }
