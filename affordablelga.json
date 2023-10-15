@@ -27,7 +27,7 @@
   },
   "transform": [
     {
-      "filter": "datum.Percentages <= affordabilityFilter.Percentages"
+      "filter": "datum.Percentages >= affordabilityFilter.Percentages"
     },
     {
       "window": [{"op": "rank", "as": "rank"}],
