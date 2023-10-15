@@ -7,7 +7,7 @@
     "subtitleFontSize": 12
   },
   "data": {
-    "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/affordable2022.csv",
+    "url": "https://raw.githubusercontent.com/iankohjinhao/3179/main/affordable2022trim.csv",
     "format": {"type": "csv"}
   },
   "padding": {"top": 0, "left": 0, "right": 0, "bottom": 40},
@@ -17,21 +17,22 @@
       "fields": ["Percentages"],
       "bind": {
         "input": "range",
-        "min": 0,
+        "min": 10,
         "max": 90,
         "step": 10,
         "name": "Affordability Slider"
       },
-      "init": {"Percentages": 90}
+      "init": {"Percentages": 10}
     }
   },
   "transform": [
-    {"filter": "datum.Percentages <= affordabilityFilter.Percentages"},
+    {
+      "filter": "datum.Percentages <= affordabilityFilter.Percentages"
+    },
     {
       "window": [{"op": "rank", "as": "rank"}],
       "sort": [{"field": "Percentages", "order": "descending"}]
-    },
-    {"filter": "datum.rank <= 20"}
+    }
   ],
   "mark": {"type": "bar", "color": "#404040"},
   "encoding": {
@@ -45,23 +46,14 @@
       "field": "Percentages",
       "type": "quantitative",
       "axis": {"title": "Affordability Percentage"},
-      "scale": {"domain": [0, 90]}
+      "scale": {"domain": [0, 99]}
     },
     "tooltip": [
       {"field": "LGA", "type": "ordinal", "title": "Local Government Area"},
-      {
-        "field": "Affordable",
-        "type": "quantitative",
-        "title": "Number of Affordable Property"
-      },
-      {
-        "field": "Percentages",
-        "type": "quantitative",
-        "title": "Percentage of Affordable Housing"
-      }
+      {"field": "Affordable", "type": "quantitative", "title": "Number of Affordable Property"},
+      {"field": "Percentages", "type": "quantitative", "title": "Percentage of Affordable Housing"}
     ]
   },
   "width": "container",
-  "height": 350,
-  "config": {}
+  "height": "350"
 }
