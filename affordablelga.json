@@ -61,7 +61,7 @@
       }
     ]
   },
-  "width": 800,
+  "width": "container",
   "height": 350,
   "config": {}
 }
