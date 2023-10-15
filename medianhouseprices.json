@@ -18,7 +18,13 @@
       "type": "quantitative",
       "title": "Median Property Price"
     },
-    "color": {"field": "Type", "type": "nominal"},
+    "color": {
+      "field": "Type",
+      "type": "nominal",
+      "scale": {
+        "range": ["#606060", "#b1b1b1"]
+      }
+    },
     "tooltip": [
       {"field": "Year", "type": "ordinal", "title": "Year"},
       {
