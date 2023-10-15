@@ -1,0 +1,52 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "data": {
+    "values": [
+      {"category": "Homeless People in Australia", "value": 122494},
+      {"category": "Homeless People in Victoria", "value": 31552}
+    ]
+  },
+  "title": {
+    "text": "Homeless People in Victoria",
+    "subtitle": "Compared to the rest of Australia",
+    "subtitleFontSize": 12,
+    "padding": 10
+  },
+  "mark": {"type": "arc", "innerRadius": 50},
+  "encoding": {
+    "theta": {"field": "value", "type": "quantitative"},
+    "color": {
+      "field": "category",
+      "type": "nominal",
+      "scale": {
+        "domain": [
+          "Homeless People in Australia",
+          "Homeless People in Victoria"
+        ],
+        "range": ["#b1b1b1", "#606060"]
+      },
+      "legend": {"title": "Category"}
+    },
+    "opacity": {
+      "condition": {"selection": "highlight", "value": 1},
+      "value": 0.8
+    },
+    "tooltip": [
+      {"field": "category", "type": "nominal", "title": "Category"},
+      {"field": "value", "type": "quantitative", "title": "Number of People"}
+    ]
+  },
+  "selection": {
+    "highlight": {
+      "type": "single",
+      "on": "mouseover",
+      "encodings": ["color"],
+      "empty": "none",
+      "nearest": false
+    }
+  },
+  "view": {"stroke": null},
+  "width": "container",
+  "height": 200,
+  "config": {}
+}
